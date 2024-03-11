@@ -1,0 +1,35 @@
+/* LoginHeader.css */
+
+.LoginHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 8px;
+    /* background: #4A154B; */
+    /* color: #FFFFFF; */
+  }
+  
+  
+  .header-middle img {
+    padding-left: 7rem;
+    width: 120px; /* Adjust the logo size based on your design */
+  }
+  
+  .header-right {
+   line-height: 1.4;
+  }
+  
+  .header-right p {
+    margin-right: 10px;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-right a:hover {
+    text-decoration: underline;
+  }
+  

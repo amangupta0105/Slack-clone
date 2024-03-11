@@ -1,0 +1,28 @@
+/* LoginFooter.css */
+
+.LoginFooter {
+    margin-top: 14rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #1b1a1a;
+    font-size: 0.95rem;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  

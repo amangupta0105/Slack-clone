@@ -1,0 +1,54 @@
+/* ChatHeader.css */
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4A154B;
+    /* Set your desired background color */
+    color: #FFFFFF;
+    /* Set your desired text color */
+}
+
+.chat-header-middle {
+    display: flex;
+    align-items: center;
+}
+
+.chat-header-middle .search-section {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    width: 20vw;
+    /* Set the width to 20vw */
+    border: 1px solid #FFFFFF;
+    /* Set your desired border color */
+    border-radius: 4px;
+    /* Set your desired border radius */
+    padding: 5px;
+    /* Adjust padding as needed */
+}
+
+.chat-header-middle input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    /* Set your desired input text color */
+    width: 100%;
+    /* Fill the entire width of the search-section */
+}
+
+/* Style for icons */
+.chat-header svg {
+    font-size: 1.5rem;
+    /* Set your desired icon size */
+    margin-right: 10px;
+}
+
+/* Style for the HelpIcon in the right section */
+.chat-header-right svg {
+    font-size: 1.8rem;
+    /* Set your desired icon size */
+}

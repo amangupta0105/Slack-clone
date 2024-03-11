@@ -1,0 +1,39 @@
+/* ChatSection.css */
+
+.chatSection {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-left: 1px solid #dddddd; /* Set your desired border color */
+}
+
+.chat-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd; /* Set your desired border color */
+}
+
+.channel-listname {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.message-section {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scroll if needed */
+    padding: 10px;
+}
+
+
+.details {
+    margin-left: auto; /* Move to the rightmost position */
+    padding-right: 10px; /* Add some right padding for spacing */
+}

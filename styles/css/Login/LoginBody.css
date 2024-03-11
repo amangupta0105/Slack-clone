@@ -1,0 +1,25 @@
+/* LoginBody.css */
+
+.LoginBody {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    line-height: 1.2;
+}
+
+.login-heading {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.login-subhedaing {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555555;
+}
+.bold{
+    font-weight: bold;
+}

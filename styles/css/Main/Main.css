@@ -1,0 +1,17 @@
+.login-prompt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-prompt p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    margin-top: 40vh;
+    margin-bottom: 20px;
+}
+.MainPage{
+    margin: 0;
+    padding: 0;
+}

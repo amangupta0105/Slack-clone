@@ -1,0 +1,39 @@
+/* Message.css */
+
+.message-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.message-input {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f4f4f4; /* Set your desired background color */
+    border-top: 1px solid #dddddd; /* Set your desired border color */
+}
+
+.input-message {
+    display: flex;
+}
+
+.input-message input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dddddd; /* Set your desired input border color */
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.send-button {
+    background-color: green; /* Set your desired button background color */
+    color: #FFFFFF; /* Set your desired button text color */
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scroll if needed */
+    padding: 10px;
+    background-color: #ffffff; /* Set your desired background color */
+}

@@ -1,0 +1,53 @@
+/* GetMessage.css */
+
+.message-lists {
+    overflow-y: auto;
+    background-color: #ffffff;
+}
+
+.message-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.user-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.msg-details {
+    flex: 1;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.time {
+    color: #888888;
+    font-size: 12px;
+}
+
+.message {
+    margin-top: 5px;
+}
+
+.msg-delte {
+    cursor: pointer;
+    opacity: 70%;
+    color: #888888;
+}
+
+.msg-delte:hover {
+    color: red;
+}
+
+.msg-sub-block{
+    display: flex;
+}

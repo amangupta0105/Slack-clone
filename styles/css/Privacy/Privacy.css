@@ -1,0 +1,22 @@
+/* privacy.css */
+
+.privacy-container {
+    max-width: 800px;
+    margin: 10vh auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-container h2 {
+    margin: 10px;
+    color: #333;
+  }
+  
+  .privacy-container p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  

@@ -1,0 +1,60 @@
+/* ChatSideBar.css */
+
+.chat-sidebar {
+    width: 200px;
+    background-color: #4A154B;
+    color: #FFFFFF;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user h3 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info hr {
+    border-top: 1px solid #555555;
+    /* Set your desired border color */
+}
+
+.online-user {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.online-user svg {
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.fixed-channel p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fixed-channel p svg {
+    margin-right: 10px;
+}
+
+.fixed-channel p:hover {
+    background-color: #5d065e;
+    /* Set your desired hover background color */
+    border-radius: 4px;
+}

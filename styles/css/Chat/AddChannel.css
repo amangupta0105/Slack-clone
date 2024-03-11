@@ -1,0 +1,60 @@
+/* AddChannel.css */
+
+.add-channel {
+  margin-top: 4px;
+}
+
+.add-channel Button {
+  display: flex;
+  align-items: center;
+  background-color: #4A154B;
+  color: #FFFFFF;
+}
+
+.addchannel-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #c4c0c0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addchannel-form h3 {
+  font-size: 1.4rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.addChannelSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.addChannelSection input {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  outline: none;
+  margin-left: 10px;
+  width: 20vw;
+}
+
+.addButton,
+.cancelButton {
+  background-color: #4A154B;
+  color: #FFFFFF;
+}
+.button-add-delete {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

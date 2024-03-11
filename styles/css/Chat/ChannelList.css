@@ -1,0 +1,84 @@
+/* ChannelList.css */
+
+.channel-list {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.channel-name:hover {
+    background-color: #5d065e;
+}
+
+.channel-list .channel-name {
+    flex: 1;
+}
+
+.channel-list .delete-channel {
+    cursor: pointer;
+    opacity: 60%;
+}
+.edit-channel {
+    margin-left: 30px;
+    margin-right: 4px;
+    cursor: pointer;
+    opacity: 60%;
+}
+.channel-list .delete-channel:hover {
+    color: rgb(247, 54, 54);
+    /* Set your desired hover color for delete icon */
+}
+.channel-list .edit-channel:hover {
+    color: rgb(75, 75, 255);
+    /* Set your desired hover color for delete icon */
+}
+
+.editChannel-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c0c0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.editChannel-form h3 {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.editChannelSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.editChannelSection input {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 10px;
+    width: 20vw;
+}
+
+.button-edit-delete{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.editButton{
+  background-color: #4A154B;
+  color: #FFFFFF;
+}

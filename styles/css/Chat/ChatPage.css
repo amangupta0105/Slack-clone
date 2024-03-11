@@ -1,0 +1,11 @@
+/* ChatPage.css */
+
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat-main{
+    display: flex;
+}
